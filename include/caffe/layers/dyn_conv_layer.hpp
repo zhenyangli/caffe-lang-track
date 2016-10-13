@@ -28,7 +28,7 @@ class DynamicConvolutionLayer : public BaseConvolutionLayer<Dtype> {
 
   virtual inline int MinBottomBlobs() const { return 2; }
   virtual inline bool EqualNumBottomTopBlobs() const { return false; }
-  virtual inline const char* type() const { return "Dynamic Convolution"; }
+  virtual inline const char* type() const { return "DynamicConvolution"; }
 
  protected:
   virtual void Forward_cpu(const vector<Blob<Dtype>*>& bottom,
