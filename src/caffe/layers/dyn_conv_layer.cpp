@@ -307,5 +307,6 @@ STUB_GPU(DynamicConvolutionLayer);
 #endif
 
 INSTANTIATE_CLASS(DynamicConvolutionLayer);
+REGISTER_LAYER_CLASS(DynamicConvolution);
 
 }  // namespace caffe
